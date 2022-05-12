@@ -1,6 +1,6 @@
-initSW();
-
 function initSW() {
+    console.log("init serviceWorker");
+
     if (!("serviceWorker" in navigator)) {
         //service worker isn't supported
         return;
